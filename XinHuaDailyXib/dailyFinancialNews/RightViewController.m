@@ -34,7 +34,7 @@
     self.user_label.text=@"授权用户";
     self.user_label.font = [UIFont fontWithName:@"Arial" size:24];
     [self.user_view addSubview:self.user_label];
-    self.user_phone_label=[[UILabel alloc] initWithFrame:CGRectMake(100, 70, 120, 40)];
+    self.user_phone_label=[[UILabel alloc] initWithFrame:CGRectMake(100, 70, 180, 40)];
     self.user_phone_label.text=@"010-88689988";
     self.user_phone_label.textColor=[UIColor grayColor];
     [self.user_view addSubview:self.user_phone_label];

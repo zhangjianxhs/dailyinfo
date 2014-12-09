@@ -519,7 +519,6 @@
 		188739BA18FCD3B00032CF2C /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A5B24B17C472CE00E087F7 /* about.png */; };
 		188739BB18FCD3B00032CF2C /* KeychainAccessGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1882D8ED18321A0600485B6B /* KeychainAccessGroups.plist */; };
 		188739BE18FCD3B00032CF2C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 188228181803C912006AF789 /* README.md */; };
-		188806BC1A2BF91C009B1FAA /* YLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188806BB1A2BF91C009B1FAA /* YLLabel.m */; };
 		188806BD1A2BF91C009B1FAA /* YLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188806BB1A2BF91C009B1FAA /* YLLabel.m */; };
 		188806BE1A2BF91C009B1FAA /* YLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188806BB1A2BF91C009B1FAA /* YLLabel.m */; };
 		188806C01A2BFB4B009B1FAA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188806BF1A2BFB4B009B1FAA /* CoreText.framework */; };
@@ -1539,11 +1538,11 @@
 		1882D8F418321B5000485B6B /* lnzw_inhouse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = lnzw_inhouse.entitlements; path = lnzw_inhouse/lnzw_inhouse.entitlements; sourceTree = "<group>"; };
 		1882D8F518321C2000485B6B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1886AAE819FF7A5900222E38 /* heise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heise.png; sourceTree = "<group>"; };
-		188739C218FCD3B00032CF2C /* hnzw_inhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hnzw_inhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188739C218FCD3B00032CF2C /* lnfb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lnfb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188806BA1A2BF91C009B1FAA /* YLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLabel.h; sourceTree = "<group>"; };
 		188806BB1A2BF91C009B1FAA /* YLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLabel.m; sourceTree = "<group>"; };
 		188806BF1A2BFB4B009B1FAA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		188993801A24424B00D1247C /* ocean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ocean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188993801A24424B00D1247C /* jlhy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jlhy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188993811A24424C00D1247C /* ocean-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ocean-Info.plist"; path = "/Users/apple/Documents/dailyinfo/ocean-Info.plist"; sourceTree = "<absolute>"; };
 		188993851A2446C200D1247C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		188993861A2446C200D1247C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
@@ -1895,7 +1894,7 @@
 		18EF92C61A14562400891BCE /* DFNDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DFNDrawerViewController.m; path = dailyFinancialNews/DFNDrawerViewController.m; sourceTree = "<group>"; };
 		18EF92CD1A1456E700891BCE /* DFNDefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DFNDefaultView.h; path = dailyFinancialNews/DFNDefaultView.h; sourceTree = "<group>"; };
 		18EF92CE1A1456E700891BCE /* DFNDefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DFNDefaultView.m; path = dailyFinancialNews/DFNDefaultView.m; sourceTree = "<group>"; };
-		18EF941B1A1457C700891BCE /* dfn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dfn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EF941B1A1457C700891BCE /* mrcj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mrcj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF944A1A146CA600891BCE /* GlobalVariablesDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalVariablesDefine.h; path = dailyFinancialNews/GlobalVariablesDefine.h; sourceTree = "<group>"; };
 		18EF94591A14861200891BCE /* TagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagCell.h; path = dailyFinancialNews/TagCell.h; sourceTree = "<group>"; };
 		18EF945A1A14861200891BCE /* TagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TagCell.m; path = dailyFinancialNews/TagCell.m; sourceTree = "<group>"; };
@@ -3643,9 +3642,9 @@
 		2BE474A015672D0000081C82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				188739C218FCD3B00032CF2C /* hnzw_inhouse.app */,
-				18EF941B1A1457C700891BCE /* dfn.app */,
-				188993801A24424B00D1247C /* ocean.app */,
+				188739C218FCD3B00032CF2C /* lnfb.app */,
+				18EF941B1A1457C700891BCE /* mrcj.app */,
+				188993801A24424B00D1247C /* jlhy.app */,
 				181865971A2D99480063728A /* xhjr.app */,
 			);
 			name = Products;
@@ -4022,7 +4021,7 @@
 			);
 			name = lnfb;
 			productName = XinHuaDailyXib;
-			productReference = 188739C218FCD3B00032CF2C /* hnzw_inhouse.app */;
+			productReference = 188739C218FCD3B00032CF2C /* lnfb.app */;
 			productType = "com.apple.product-type.application";
 		};
 		188992361A24424B00D1247C /* ocean */ = {
@@ -4039,7 +4038,7 @@
 			);
 			name = ocean;
 			productName = XinHuaDailyXib;
-			productReference = 188993801A24424B00D1247C /* ocean.app */;
+			productReference = 188993801A24424B00D1247C /* jlhy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18EF92D71A1457C700891BCE /* dfn */ = {
@@ -4056,7 +4055,7 @@
 			);
 			name = dfn;
 			productName = XinHuaDailyXib;
-			productReference = 18EF941B1A1457C700891BCE /* dfn.app */;
+			productReference = 18EF941B1A1457C700891BCE /* mrcj.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -5026,7 +5025,6 @@
 				18915EC21A2FFA7F00D1DF04 /* BindleLostError.m in Sources */,
 				18F1170019E8B6990097A682 /* ChannelHeader.m in Sources */,
 				4753277019F279520081A0F5 /* UIWindow+YzdHUD.m in Sources */,
-				188806BC1A2BF91C009B1FAA /* YLLabel.m in Sources */,
 				479C074419E9752800D946F9 /* UserDefaults.m in Sources */,
 				4717628319EFE32B00646857 /* HomeHeader.m in Sources */,
 				47C6C8C819E82708002CD14C /* ListChannelViewController.m in Sources */,
@@ -5474,7 +5472,7 @@
 				);
 				LNFB = 1;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = hnzw_inhouse;
+				PRODUCT_NAME = lnfb;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -5513,7 +5511,7 @@
 				);
 				LNFB = 1;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = hnzw_inhouse;
+				PRODUCT_NAME = lnfb;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -5549,9 +5547,9 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				Ocean = 1;
-				PRODUCT_NAME = ocean;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = jlhy;
+				PROVISIONING_PROFILE = "e13b9974-662e-45d4-96cf-aff9557658ec";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e13b9974-662e-45d4-96cf-aff9557658ec";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -5586,9 +5584,9 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				Ocean = 1;
-				PRODUCT_NAME = ocean;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = jlhy;
+				PROVISIONING_PROFILE = "e13b9974-662e-45d4-96cf-aff9557658ec";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e13b9974-662e-45d4-96cf-aff9557658ec";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
@@ -5623,7 +5621,7 @@
 					"$(PROJECT_DIR)/XinHuaDailyXib/baidu/WX",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = dfn;
+				PRODUCT_NAME = mrcj;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -5661,7 +5659,7 @@
 					"$(PROJECT_DIR)/XinHuaDailyXib/baidu/WX",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = dfn;
+				PRODUCT_NAME = mrcj;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;

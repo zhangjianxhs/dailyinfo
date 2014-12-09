@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18EF92D71A1457C700891BCE"
-               BuildableName = "dfn.app"
+               BuildableName = "mrcj.app"
                BlueprintName = "dfn"
                ReferencedContainer = "container:XinHuaDailyXib.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18EF92D71A1457C700891BCE"
-            BuildableName = "dfn.app"
+            BuildableName = "mrcj.app"
             BlueprintName = "dfn"
             ReferencedContainer = "container:XinHuaDailyXib.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18EF92D71A1457C700891BCE"
-            BuildableName = "dfn.app"
+            BuildableName = "mrcj.app"
             BlueprintName = "dfn"
             ReferencedContainer = "container:XinHuaDailyXib.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18EF92D71A1457C700891BCE"
-            BuildableName = "dfn.app"
+            BuildableName = "mrcj.app"
             BlueprintName = "dfn"
             ReferencedContainer = "container:XinHuaDailyXib.xcodeproj">
          </BuildableReference>

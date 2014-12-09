@@ -139,18 +139,14 @@
         }else{
             alImageView.frame=CGRectMake(0, 0, 0, 0);
         }
-        if(keywords_size.height>0){
-            keywords_label.frame=CGRectMake(100, image_size.height==0?0:image_size.height+5, 150, 20);
-        }else{
-            keywords_label.frame=CGRectMake(100, image_size.height==0?0:image_size.height+5, 0, 0);
-        }
+        keywords_label.frame=CGRectMake(100, image_size.height==0?0:image_size.height+5, 150, 20);
         time_label.frame=CGRectMake(10,image_size.height==0?0:image_size.height+5, 90, 20);
         comments_label.frame=CGRectMake(300-5-20-40 ,image_size.height==0?0:image_size.height+5,40, 20);
         comment_icon.frame=CGRectMake(300-5-20, image_size.height==0?0:image_size.height+5, 20, 20);
         if(title_size.height>0){
-            title.frame=CGRectMake(5, image_size.height==0?keywords_label.frame.origin.y:keywords_label.frame.origin.y+keywords_size.height+5, title_size.width, title_size.height);
+            title.frame=CGRectMake(5, keywords_label.frame.origin.y+keywords_size.height+5, title_size.width, title_size.height);
         }else{
-            title.frame=CGRectMake(5, image_size.height==0?keywords_label.frame.origin.y:keywords_label.frame.origin.y+keywords_size.height+5, 0, 0);
+            title.frame=CGRectMake(5, keywords_label.frame.origin.y+keywords_size.height+5, 0, 0);
         }
         if(summary_size.height>0){
             summary_label.frame=CGRectMake(5, title_size.height==0?title.frame.origin.y:title.frame.origin.y+title_size.height+5, summary_size.width, summary_size.height);

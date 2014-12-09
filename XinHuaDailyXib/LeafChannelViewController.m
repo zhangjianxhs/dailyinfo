@@ -68,7 +68,7 @@ BOOL busy=NO;
     NSLog(@"%@",time);
     [self.service  fetchArticlesFromNETWithChannel:self.channel time:time successHandler:^(NSArray *articles) {
         self.articles_for_cvc=[self.service fetchArticlesFromDBWithChannel:self.channel topN:[self.articles_for_cvc.other_articles count]+[articles count]];
-        [self.tableView reloadData];
+        [self refreshUI];
         [self endLoadingMore];
         busy=NO;
     } errorHandler:^(NSError *error) {
